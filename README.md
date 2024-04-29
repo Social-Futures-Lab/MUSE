@@ -16,9 +16,9 @@ This repository provides the data and code to reproduce the results of *[Correct
 
   '~' indicates the response is the same as (iii). '|||': the same as (iv). '*': the same as (vi). '$': the same as (vii). '///': the same as (viii). 
 - `data/Q[..].csv`: It contains the experts' evaluation results of the responses in `data/responses.csv`.
-- `data/username_tweetids.csv`: The assignment of the tweets and responses to every expert.
+- `data/username_tweetids.csv`: The assignment of the tweets and responses to every expert in the annotation phase.
 - `data/tweetid_domain`: The identified domain of each tweet.
-- `code/`: The code demonstrates the figures in our paper (Evaluation; Supplementary Figures). The results were generated with Python 3.7 and dependencies in `requirements.txt`.
+- `code/`: The code to reproduce the main results in our paper. The results were generated with Python 3.7 and dependencies in `requirements.txt`.
 ### Notes: 
 - We comply with X/Twitter Terms of Service by only releasing the IDs of tweets. Most code files are runnable without further obtaining the tweet data, except `dist_note_time.ipynb`, `dist_tweet_time.ipynb`, and `impact_time_misinfo`, where the creation times of tweets are necessary. 
 - The names of the experts are anonymized.
