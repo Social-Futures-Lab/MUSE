@@ -20,7 +20,7 @@ This repository provides the data and code to reproduce the results of *[Correct
 - `data/tweetid_domain`: The identified domain of each tweet.
 - `code/`: The code to reproduce the main results in our paper. The results were generated with Python 3.7 and dependencies in `requirements.txt`.
 ### Notes: 
-- We comply with X/Twitter Terms of Service by only releasing the IDs of tweets. Most code files are runnable without further obtaining the tweet data, except `dist_note_time.ipynb`, `dist_tweet_time.ipynb`, and `impact_time_misinfo`, where the creation times of tweets are necessary. 
+- We comply with X/Twitter Terms of Service by only releasing the IDs of tweets. Most code files are runnable without further obtaining the tweet data, except `fig_s17.ipynb`, `fig_s27.ipynb`, and `fig_s28.ipynb`, where the creation times of tweets are necessary. 
 - The names of the experts are anonymized.
 
 ## Citation
