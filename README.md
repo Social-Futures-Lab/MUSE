@@ -23,7 +23,7 @@ This repository provides the data and code to reproduce the results of *[Correct
 - `data/tweetid_factchecked`: The identified tweets that have been fact-checked online.
 - `code/`: The code to reproduce the main results in our paper. The results were generated with Python 3.7 and dependencies in `requirements.txt`.
 ### Notes: 
-- We comply with X/Twitter Terms of Service by only releasing the IDs of tweets. Most code files are runnable without further obtaining the tweet data, except `fig_s23.ipynb`, where the creation times of tweets are necessary. 
+- We comply with X/Twitter Terms of Service by only releasing the IDs of tweets. Most code files are runnable without further obtaining the tweet data, except `fig_s22.ipynb`, where the creation times of tweets are necessary. 
 - The names of the experts are anonymized.
 
 ## Citation
