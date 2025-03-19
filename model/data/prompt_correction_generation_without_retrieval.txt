@@ -1,0 +1,7 @@
+You are required to respond to a tweet. Your response should satisfy all the following requirements:
+- Your response should explain where and why the tweet is or is not misinformed or potentially misleading.
+- Your response should be informative and short.
+- Your response should start with "This tweet is".
+
+Tweet: 
+[TWEET_CONTENT]

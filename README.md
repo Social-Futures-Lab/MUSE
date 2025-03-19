@@ -1,8 +1,19 @@
 # MUSE
 
-This repository provides the data and code to reproduce the results of *[Correcting misinformation on social media with a large language model](https://arxiv.org/abs/2403.11169)*. 
+This repository provides the data and code to reproduce *[Correcting misinformation on social media with a large language model](https://arxiv.org/abs/2403.11169)*.
 
 ## Instructions
+
+This repository contains three folders to reproduce (1) our proposed model, **MUSE**, as well as the results from (2) the expert evaluation and (3) the user study.
+
+### Our Model, MUSE
+
+We comply with X/Twitter Terms of Service by only releasing tweet IDs. To successfully run the model (i.e., `main.py`), you need to 
+- Add your API keys in `data/api_keys.json`; 
+- Obtain tweet content and image urls to populate `tweets.csv` and `image_url.json` based on our released tweet IDs.
+
+### Expert Evaluation
+
 - `data/notes_all.csv`: The [Community Notes](https://communitynotes.twitter.com/guide/en/about/introduction) data that our evaluation is based on.
 - `data/responses.csv`: It contains the tweets and responses made by
   1. Laypeople with *high* helpfulness;
@@ -25,6 +36,10 @@ This repository provides the data and code to reproduce the results of *[Correct
 ### Notes: 
 - We comply with X/Twitter Terms of Service by only releasing the IDs of tweets. Most code files are runnable without further obtaining the tweet data, except `fig_s23.ipynb`, where the creation times of tweets are necessary. 
 - The names of the experts are anonymized.
+
+### User Study
+
+TODO
 
 ## Citation
 ```

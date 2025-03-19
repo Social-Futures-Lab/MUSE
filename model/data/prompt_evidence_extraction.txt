@@ -1,0 +1,20 @@
+[ARTICLE_CONTENT]
+
+Given the above article[ARTICLE_PUBLISH_DATE]:
+1. Quote its paragraphs, at most two, that explicitly and completely refute the given tweet.
+2. Quote its paragraphs, at most two, that implicitly refute the given tweet. Such paragraphs often provide the tweet's context that can imply the tweet is cherry-picking by showing the full picture.
+Your answer should follow the following format:
+
+1. Explicit refutation:
+- QUOTE_1
+- QUOTE_2
+
+2. Implicit refutation:
+- QUOTE_1
+- QUOTE_2
+Where QUOTE_1, and QUOTE_2 represent the quoted paragraphs OR is "NONE". "QUOTE_1" and "QUOTE_2" should not appear in your answers.
+
+If the article does not have such content or is irrelevant to the tweet, you should answer "NONE".
+
+Tweet:
+[TWEET_CONTENT]

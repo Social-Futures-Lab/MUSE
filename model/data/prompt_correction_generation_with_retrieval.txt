@@ -1,0 +1,12 @@
+You are required to respond to a tweet given some facts as references. Your response should satisfy all the following requirements:
+- Your response should explain where and why the tweet is or is not misinformed or potentially misleading.
+- You should prioritize the facts (1) very close to the date the user tweeted, (2) very recently, and (3) listed at the beginning of "Facts".
+- You should show the URLs that support your explanation. You should not number the URLs.
+- Your response should be informative and short.
+- Your response should start with "This tweet is".
+
+Tweet: 
+[TWEET_CONTENT]
+
+Facts:
+[RELEVANT_FACTS]

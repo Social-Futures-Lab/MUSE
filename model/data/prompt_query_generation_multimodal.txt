@@ -1,0 +1,12 @@
+[POST_CONTENT]
+
+Given a tweet, you are required to generate five different queries from the tweet for the Google Search Engine to get the most relevant web content to fact-check the tweet. Your answer should follow the following format:
+
+1. QUERY_1
+2. QUERY_2
+3. QUERY_3
+4. QUERY_4
+5. QUERY_5
+Where QUERY_1, QUERY_2, QUERY_3, QUERY_4, and QUERY_5 represent query text without quotation marks.
+
+If the given tweet is not informative enough to generate a query, you should answer "NONE".

@@ -1,0 +1,11 @@
+{
+  "OpenAI": "",
+  "HuggingFace": "",
+  "SerpAPI": "",
+  "GoogleSearch": {
+    "Key": "",
+	"High-Priority" : "",
+    "Medium-Priority" : "",
+    "Low-Priority" : ""
+  }
+}

@@ -1,0 +1,38 @@
+Describe an image in an informative way. Your description should be only based on the given {short caption}, {name of each person}, and {raw text}. If the image is from social media, you should start with "A screenshot of". If the image is a quote from someone, you should start with "A quote from" followed by this person's name if there is any, then by the quoted text. If the image is an article, you should start with "An article". If the image is a photo, you should start with "A photo of". If the image is a map, you should start with "A map of". {raw text} may contain nonsense data that are unnecessarily included in the image description; however, {name of each person} is not, and if the concept in {raw text} has a conflict with that in {short caption} (e.g., "Robbie Lemos" versus "robbie leems" shown later), {raw text} is often the right one.
+
+short caption: {a woman with glasses and a quote that says, in real life, i assure you there is no such thing as algebra}
+name of each person: {Fran Lebowitz}
+raw text: {"In real life, I assure you, there is no such thing as algebra."}
+image description: {A quote from Fran Lebowitz, "In real life, I assure you, there is no such thing as algebra."}
+short caption: {two men in suits}
+name of each person: {Jim Caviezel, Michael Emerson}
+raw text: {}
+image description: {A photo of Jim Caviezel and Michael Emerson in suits}
+short caption: {robbie leems on twitter}
+name of each person: {}
+raw text: {Robbie Lemos @RobbieLemos 1d I'd like to congratulate my dear friend Deep Mind on a wonderful 1st day at work today at Google. Just in time for #EarthDay2023, cheers brother! 1 2 3,790}
+image description: {A screenshot of a post of Robbie Lemos, "I'd like to congratulate my dear friend Deep Mind on a wonderful 1st day at work today at Google. Just in time for #EarthDay2023, cheers brother!" The post was posted on Twitter.}
+short caption: {a moose}
+name of each person: {}
+raw text: {Yahoo Finance @YahooFinance Typically, the stock market bottoms four to five months before a recession ends, but RBC's research details that it has bottomed as early as nine months before the end of a recession. finance.yahoo.com Could the stock market power through a recession? 'This would be rare.' 09:57 22/4/2023 3.4,011 Views 1 Retweet 1 Quote 5 Likes 1 Bookmark}
+image description: {A screenshot of a post from Yahoo Finance, "Typically, the stock market bottoms four to five months before a recession ends, but RBC's research details that it has bottomed as early as nine months before the end of a recession." The post shared an article from finance.yahoo.com claiming, "Could the stock market power through a recession? 'This would be rare.'" with a picture of a moose. The post was posted at 09:57 22/4/2023.}
+short caption: {a person pouring tea into a cup}
+name of each person: {}
+raw text: {New research reveals how coffee and tea can affect risk of early death for adults with diabetes By Sandee LaMotte, CNN Updated 7:01 PM EDT, Wed April 19, 2023 f The health benefits of tea 01:10 - Source: CNN}
+image description: {An article claiming, "New research reveals how coffee and tea can affect risk of early death for adults with diabetes." It attached a picture of a person pouring tea into a cup. It was written by Sandee LaMotte, published by CNN, and updated at 7:01 PM EDT, Wed April 19, 2023.}
+short caption: {two people standing next to each other with the words love is blind}
+name of each person: {Nick Lachey}
+raw text: {\ "Love Is Blind\" co-host faceplants with a regressive line of questioning Hayley Miller MSNBC DAILY MSNBC}
+image description: {An article claiming, "'Love Is Blind' co-host faceplants with a regressive line of questioning." It attached a picture of Nick Lachey and another person standing next to each other. It was written by Hayley Miller and published by MSNBC.}
+short caption: {a bar graph that shows how engaged are the most followed journalists on twitter}
+name of each person: {Rahul Kanwal}
+raw text: {How engaged are the most-followed journalists on Twitter? Percentage of tweets from each journalist that are at-replies BDUTT 64% RealMikeWilbon 38% 34% ErinAndrews 31% stephenasmith 24% andersoncooper rahulkanwal 13% 13% ninagarcia 5% sardesairajdeep 1% BillSimmons maddow 1% 0% 10% 20% 30% 40% 50% 60% chart by mattmaldre.com}
+image description: {A bar graph showing how engaged the most followed journalists, including Rahul Kanwal, are on Twitter through the percentage of tweets from each journalist that are at-replies. The chart was made by mattmaldre.com.}
+short caption: {a graph showing the global defense budget by region}
+name of each person: {}
+raw text: {Global Defense Budgets by Region ($ Billions) $1,000 800 600 400 200 0 2020 2021 2022 2023 2024 2025 Asia-Pacific Latin America North America Sub-Saharan Africa Europe Middle East & North Africa Russia & Commonwealth of Independent States Source: Aviation Week}
+image description: {A graph showing the global defense budget by region. It is from Aviation Week.}
+short caption: {[CAPTION]}
+name of each person: {[CELEBRITIES]}
+raw text: {[OCR]}
+image description:
