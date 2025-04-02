@@ -39,7 +39,17 @@ We comply with X/Twitter Terms of Service by only releasing tweet IDs. To succes
 
 ### User Study
 
-TODO
+- `data/posts.csv`: The tweet posts and responses used in the user study.
+- `data/pre_belief.csv`: Users' ratings of whether tweets were misleading before reading responses (on a 7-point scale from "1: Extremely Accurate" to "7: Extremely Misleading").
+- `data/post_belief.csv`: Users' ratings of whether tweets were misleading after reading responses (on the same 7-point scale).
+- `data/pre_intention.csv`: Users' intentions to share the tweet before reading responses (on a 7-point scale from "1: Extremely Unlikely" to "7: Extremely Likely").
+- `data/post_intention.csv`: Users' intentions to share the tweet after reading responses (on the same 7-point scale).
+- `data/trustworthiness.csv`: Users' perceptions of the trustworthiness of the responses (on a 7-point scale from "1: Extremely Untrustworthy" to "7: Extremely Trustworthy").
+- `code/analysis.ipynb`: The code to reproduce the user study results in our paper, including:
+  1. Change in belief that misinformation is misleading before and after reading responses
+  2. Change in intention to share misinformation before and after reading responses
+  3. Trustworthiness of responses
+
 
 ## Citation
 ```
